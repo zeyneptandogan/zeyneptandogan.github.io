@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    
+    gem 'faraday-retry'
+    gem 'webrick'
+    gem 'tzinfo-data'
+
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -27,3 +32,4 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
