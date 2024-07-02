@@ -21,7 +21,7 @@
 }
 
 .qualification__container {
-    max-width: 800px; /* Set a maximum width for the timeline container */
+    max-width: 600px; /* Set a maximum width for the timeline container */
     margin: 0 auto; /* Center the timeline container */
 }
 
@@ -76,12 +76,23 @@
 }
 
 /*==================== SECTION TITLE & SUBTITLE ====================*/
+.section {
+    text-align: center; /* Center all text within the section */
+}
+
+.section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem; /* Space below the section header */
+}
+
 .section__title {
     font-size: 2rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .section__subtitle {
@@ -89,5 +100,5 @@
     font-weight: 400;
     color: #666;
     margin-bottom: 2rem;
-    text-align: center;
 }
+
