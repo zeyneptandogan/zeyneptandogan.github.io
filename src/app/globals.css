@@ -134,7 +134,7 @@ a {
 #snap-root[data-scene="intro"] .b6 { --x: 82vw;  --y:  85vh; }/* orange */
 
 /* ABOUT */
-#snap-root[data-scene="about"] .b1 { --x: 0vw;  --y:  8vh; }
+#snap-root[data-scene="about"] .b1 { --x: 0vw;  --y:  12vh; }
 #snap-root[data-scene="about"] .b2 { --x: -8vw;  --y: 15vh; } 
 #snap-root[data-scene="about"] .b3 { --x: 0vw;  --y: 10vh; }
 #snap-root[data-scene="about"] .b4 { --x: 80vw;  --y:  47vh; }
