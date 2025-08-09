@@ -1,0 +1,24 @@
+[
+  {
+    "year": 2024,
+    "title": "Automatic Transcription of Ottoman Documents Using Deep Learning",
+    "authors": [
+      { "name": "Bilgin Tasdemir, E. F." },
+      { "name": "Tandogan, Z.", "me": true },
+      { "name": "Akansu, S. D." },
+      { "name": "Kızılırmak, F." },
+      { "name": "Sen, M. U." },
+      { "name": "Akcan, A." },
+      { "name": "Kuru, M." },
+      { "name": "Yanikoglu, B." }
+    ],
+    "venue": "Proceedings of the 16th IAPR International Workshop on Document Analysis Systems (DAS 2024)",
+    "status": "Accepted",
+    "links": {
+      "pdf": "/papers/ottoman-transcription.pdf",
+      "arxiv": "",
+      "doi": "",
+      "project": ""
+    }
+  }
+]

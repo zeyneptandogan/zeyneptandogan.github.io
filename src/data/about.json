@@ -1,0 +1,24 @@
+{
+  "contact": {
+    "location": "Lausanne, Switzerland",
+    "email": "zeynep.tandogan@example.com"
+  },
+  "paragraphs": [
+    "Passionate computer scientist and EPFL MSc student specializing in data science, machine learning, and large language models (LLMs).",
+    "Experienced in building scalable AI systems, from LLM alignment to Mixture-of-Experts optimization with Megatron-LM.",
+    "Skilled in the full ML pipeline, including multi-GPU training, model evaluation, and deployment.",
+    "Motivated by the challenge of creating scalable, aligned AI systems that serve human needs."
+  ],
+  "links": {
+    "cv": "/cv/Zeynep_Tandogan_CV.pdf",
+    "linkedin": "https://www.linkedin.com/in/zeyneptandogan/",
+    "github": "https://github.com/zeyneptandogan",
+    "scholar": "https://scholar.google.com/citations?user=MGq29kUAAAAJ&hl=en&authuser=2"
+  },
+  "skills": {
+    "programmingLanguages": ["Python", "TypeScript", "C++", "Go"],
+    "toolsAndFrameworks": ["Next.js", "React", "PyTorch", "TensorFlow", "FastAPI", "Docker", "Kubernetes", "PostgreSQL"],
+    "coreCompetencies": ["LLM Alignment", "Mixture-of-Experts", "Distributed Training (DDP/ZeRO)", "Evaluation & Benchmarks", "MLOps", "Data Engineering"],
+    "softSkills": ["Communication", "Leadership", "Mentoring", "Teamwork", "Public Speaking"]
+  }
+}

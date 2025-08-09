@@ -1,0 +1,54 @@
+.timeline {
+  list-style: none;   /* sadece dış UL’in bullet’larını kaldır */
+  margin: 0;
+  padding: 0;
+}
+
+/* YALNIZCA doğrudan çocuk <li>’ler */
+.timeline > li {
+  position: relative;
+  margin: 1.5rem 0;
+  padding-left: 2.25rem;
+}
+
+.timeline > li::before {
+  content: "";
+  position: absolute;
+  left: 0.6rem;
+  top: 0.45rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13,110,253,.25);
+  z-index: 1;
+}
+
+.timeline > li::after {
+  content: "";
+  position: absolute;
+  left: 0.95rem;
+  top: 1.3rem;
+  bottom: -1.5rem;
+  width: 2px;
+  background: rgba(108,117,125,.6);
+}
+
+.timeline > li:last-child::after {
+  display: none;
+}
+
+/* İçteki listeler (highlights) normal bullet ile kalsın */
+.sublist {
+  margin-top: .5rem;
+  margin-bottom: 0;
+  /* list-style: disc;  // istersen zorla disk yapabilirsin */
+  /* padding-left: 1.25rem; */
+}
+
+.thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* orantılı kırpma */
+  overflow: hidden;
+}

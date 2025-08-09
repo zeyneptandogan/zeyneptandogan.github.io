@@ -1,0 +1,33 @@
+[
+  {
+    "company": "OpenAI",
+    "title": "Machine Learning Engineer",
+    "period": "2024 – Present",
+    "location": "San Francisco, CA",
+    "link": "https://openai.com",
+    "highlights": [
+      "LLM alignment ve değerlendirme altyapısı",
+      "Üretim sistemlerinde performans/bellek optimizasyonu",
+      "MLOps otomasyonları (train/eval/deploy)"]
+  },
+  {
+    "company": "EPFL Lab",
+    "title": "Research Assistant",
+    "period": "2023 – 2024",
+    "location": "Lausanne, Switzerland",
+    "highlights": [
+      "Self-supervised representation learning",
+      "Deney sonuçlarının tekrarlanabilir pipeline'ı",
+      "Akademik makale hazırlığı ve veri temizliği"]
+  },
+  {
+    "company": "Startup X",
+    "title": "Software Engineer Intern",
+    "period": "Summer 2022",
+    "location": "Remote",
+    "highlights": [
+      "Next.js + React ile dashboard geliştirme",
+      "Node.js API performans iyileştirmeleri",
+      "CI/CD ve test otomasyonları"]
+  }
+]

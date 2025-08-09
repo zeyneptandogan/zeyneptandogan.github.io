@@ -1,0 +1,38 @@
+[
+  {
+    "title": "LLM Evaluator",
+    "company": "EPFL Lab",
+    "companyLink": "https://www.epfl.ch/",
+    "period": "2025",
+    "location": "Lausanne, Switzerland",
+    "projectUrl": "https://example.com/llm-evaluator",
+    "repo": "https://github.com/you/llm-evaluator",
+    "demo": "https://demo.example.com/llm-evaluator",
+    "image": "/images/profile.jpeg",
+    "description": "LLM çıktıları için otomatik değerlendirme ve metrik dashboard’u.",
+    "highlights": [
+      "Next.js + FastAPI backend",
+      "OpenAI function calling ve toolformer benzeri zincirler",
+      "Grafikler ve filtreli raporlar"
+    ]
+  },
+  {
+    "title": "Personal Portfolio",
+    "period": "2024",
+    "projectUrl": "https://your-site.com",
+    "image": null,
+    "description": "Bootstrap temelli kişisel site. App Router, metadata, image optimizasyonu.",
+    "highlights": ["App Router", "Bootstrap 5", "Vercel deploy"]
+  },
+  {
+    "title": "Recommender System",
+    "company": "Startup X",
+    "period": "2023",
+    "repo": "https://github.com/you/recsys",
+    "highlights": [
+      "Implicit feedback ALS",
+      "Batch + online güncelleme",
+      "A/B test entegrasyonu"
+    ]
+  }
+]
