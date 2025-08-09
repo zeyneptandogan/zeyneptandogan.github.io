@@ -65,16 +65,36 @@ export default function Project() {
                   )}
 
                   {/* Aksiyon butonları (opsiyonel) */}
-                  {(it.repo || it.demo) && (
+                  {(it.repo || it.demo || it.pdf) && (
                     <div className="mt-3 d-flex gap-2 flex-wrap">
                       {it.repo && (
-                        <a href={it.repo} className="btn btn-sm btn-outline-light" target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={it.repo}
+                          className="btn btn-sm btn-outline-light"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bi bi-github" /> Repo
                         </a>
                       )}
                       {it.demo && (
-                        <a href={it.demo} className="btn btn-sm btn-outline-light" target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={it.demo}
+                          className="btn btn-sm btn-outline-light"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bi bi-box-arrow-up-right" /> Demo
+                        </a>
+                      )}
+                      {it.pdf && (
+                        <a
+                          href={it.pdf}
+                          className="btn btn-sm btn-outline-light"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="bi bi-file-earmark-pdf" /> PDF
                         </a>
                       )}
                     </div>

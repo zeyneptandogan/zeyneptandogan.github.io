@@ -1,38 +1,70 @@
 [
   {
-    "title": "LLM Evaluator",
-    "company": "EPFL Lab",
-    "companyLink": "https://www.epfl.ch/",
-    "period": "2025",
-    "location": "Lausanne, Switzerland",
-    "projectUrl": "https://example.com/llm-evaluator",
-    "repo": "https://github.com/you/llm-evaluator",
-    "demo": "https://demo.example.com/llm-evaluator",
-    "image": "/images/profile.jpeg",
-    "description": "LLM çıktıları için otomatik değerlendirme ve metrik dashboard’u.",
+    "title": "Finding the Right Optimization for Mixture-of-Experts",
+    "company": "EPFL - Machine Learning and Optimization Lab",
+    "role": "Student Researcher",
+    "period": "Feb 2025 – July 2025",
+    "repo": "https://github.com/zeyneptandogan/moe-project",
+    "description": "Comprehensive study on optimization strategies for Mixture-of-Experts models, exploring trade-offs in load balancing, expressivity, and performance.",
     "highlights": [
-      "Next.js + FastAPI backend",
-      "OpenAI function calling ve toolformer benzeri zincirler",
-      "Grafikler ve filtreli raporlar"
+      "Differentiated learning rate schedules for expert vs. non-expert parameters",
+      "Tuned auxiliary loss coefficients and explored auxiliary loss–free methods",
+      "Compared optimizers (AdamW vs. Shampoo) and activation functions (sigmoid vs. softmax)",
+      "Varied number of experts to assess impact on validation loss, perplexity, and accuracy"
     ]
   },
   {
-    "title": "Personal Portfolio",
-    "period": "2024",
-    "projectUrl": "https://your-site.com",
-    "image": null,
-    "description": "Bootstrap temelli kişisel site. App Router, metadata, image optimizasyonu.",
-    "highlights": ["App Router", "Bootstrap 5", "Vercel deploy"]
+    "title": "Alignment as Translation (ATT)",
+    "company": "EPFL - CLAIRe Lab",
+    "role": "Student Researcher",
+    "period": "Feb 2024 – Dec 2024",
+    "description": "Novel LLM alignment method treating preference optimization as a translation task—transforming rejected outputs into accepted ones without a reward model.",
+    "highlights": [
+      "Reframed LLM alignment as neural machine translation",
+      "Trained on rejected/accepted response pairs using cross-entropy loss",
+      "Removed need for reward models (simpler & more stable than DPO/ORPO)",
+      "Implemented Align–Grow iterative improvement cycle",
+      "Improved helpfulness, harmlessness, and coherence in benchmarks"
+    ]
   },
   {
-    "title": "Recommender System",
-    "company": "Startup X",
-    "period": "2023",
-    "repo": "https://github.com/you/recsys",
+    "title": "Automatic Transcription of Ottoman Documents Using Deep Learning",
+    "company": "Sabancı University – VERİM (Data Analytics Research and Application Center)",
+    "role": "Research Scholar",
+    "period": "Jan 2022 – June 2023",
+    "projectUrl": "https://link.springer.com/chapter/10.1007/978-3-031-70442-0_26",
+    "pdf": "/pdfs/DAS-ICDAR-Ottoman.pdf",
+    "description": "Deep learning–based system for automatic transcription of Ottoman Turkish documents written in Arabic-Persian script. Accepted to the 16th IAPR International Workshop on Document Analysis Systems (DAS2024).",
     "highlights": [
-      "Implicit feedback ALS",
-      "Batch + online güncelleme",
-      "A/B test entegrasyonu"
+      "Developed LSTM/Transformer-based recognition models with beam search decoding",
+      "Evaluated Word Beam Search with lexicon and n-gram statistics",
+      "Analyzed lexicon size, coverage, and language modeling impact",
+      "Achieved competitive character and word error rates on a 6,828-line test set"
+    ]
+  },
+  {
+    "title": "Zoom for Big Data Analytics: User Interaction Mechanism for Multimodal Interfaces in Collaborative Analytical Sessions",
+    "company": "Sabancı University -  BAVLAB (Behavioral Analytics and Visualization Lab",
+    "period": "Sept 2021 – June 2022",
+    "pdf": "/pdfs/bachelor_final.pdf",
+    "description": "Bachelor's final thesis project: an interactive meeting environment combining Kinect-based hand gesture recognition and multimodal interfaces to enable natural collaboration in online analytical sessions. Applied to the Atlas of Opportunities platform to support decision-making with rich socioeconomic data visualizations.",
+    "highlights": [
+      "Designed Kinect camera setup for table-projected visual data with gesture control",
+      "Implemented multiple gesture recognition approaches, resolving environmental constraints",
+      "Enhanced Atlas of Opportunities for collaborative exploration of socioeconomic and mobility data",
+      "Supported policymaking and investment planning with interactive spatial analytics"
+    ]
+  },
+  {
+    "title": "System-Theoretic Analysis of Nano-Communication Signals",
+    "company": "Sabancı University",
+    "period": "Sept 2020 – Feb 2021",
+    "pdf": "/pdfs/pure_final_report_nanoComm.pdf",
+    "description": "Undergraduate research project as a Student Researcher, exploring molecular communication through the lens of system theory, focusing on enzyme–substrate complex behavior in nanoscale communication channels.",
+    "highlights": [
+      "Reviewed academic literature on molecular communication and system-theoretic modeling",
+      "Applied linear regression and neural networks to predict output from enzyme–substrate complex input signals",
+      "Analyzed and interpreted results to assess prediction accuracy and model applicability"
     ]
   }
 ]

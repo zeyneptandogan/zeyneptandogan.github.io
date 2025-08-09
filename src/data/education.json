@@ -1,9 +1,10 @@
 [
   {
     "school": "EPFL (École Polytechnique Fédérale de Lausanne)",
-    "degree": "MSc Computer Science",
-    "period": "Sept 2023–March 2026",
+    "degree": "MSc in Computer Science",
+    "period": "Sept 2023 – March 2026",
     "location": "Lausanne, Switzerland",
+    "url": "https://www.epfl.ch/",
     "highlights": [
       "CGPA: 5.25/6.00",
       "Specialization: Data Analytics",
@@ -11,25 +12,15 @@
     ]
   },
   {
-    "school": "EPFL (École Polytechnique Fédérale de Lausanne)",
-    "degree": "MSc Computer Science",
-    "period": "Sept 2023–March 2026",
-    "location": "Lausanne, Switzerland",
+    "school": "Sabancı University",
+    "degree": "BSc in Computer Science and Engineering & Electronics Engineering (Double Major)",
+    "period": "Sept 2017 – June 2023",
+    "location": "Istanbul, Turkey",
+    "url": "https://www.sabanciuniv.edu/en",
     "highlights": [
-      "CGPA: 5.25/6.00",
-      "Specialization: Data Analytics",
-      "Core Modules: Machine Learning, Modern Natural Language Processing, Applied Data Analysis, Reinforcement Learning"
-    ]
-  },
-  {
-    "school": "EPFL (École Polytechnique Fédérale de Lausanne)",
-    "degree": "MSc Computer Science",
-    "period": "Sept 2023–March 2026",
-    "location": "Lausanne, Switzerland",
-    "highlights": [
-      "CGPA: 5.25/6.00",
-      "Specialization: Data Analytics",
-      "Core Modules: Machine Learning, Modern Natural Language Processing, Applied Data Analysis, Reinforcement Learning"
+      "CGPA: 3.96/4.00",
+      "Minor: Business Analytics",
+      "Distinctive student with full 100% merit scholarship"
     ]
   }
 ]

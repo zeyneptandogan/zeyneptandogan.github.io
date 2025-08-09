@@ -11,9 +11,25 @@ export default function Education() {
         <li key={idx} >
           <div key={idx} className="bg-transparent text-white">
             <div className="d-flex w-100 justify-content-between align-items-baseline">
-              <h3 className="h5 mb-1">
-                {it.degree} <span>@ {it.school}</span>
-              </h3>
+            <h3 className="h5 mb-1">
+              {it.degree}{" "}
+              <span>
+                @{" "}
+                {it.url ? (
+                  <a
+                    href={it.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "inherit", textDecoration: "underline" }}
+                    >
+                    {it.school}
+                  </a>
+                ) : (
+                  it.school
+                )}
+              </span>
+            </h3>
+            
               <small className="">{it.period}</small>
             </div>
             {it.location && <div className="small">{it.location}</div>}

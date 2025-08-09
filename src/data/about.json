@@ -1,24 +1,54 @@
 {
   "contact": {
     "location": "Lausanne, Switzerland",
-    "email": "zeynep.tandogan@example.com"
+    "email": "zeyneptandogannn@gmail.com"
   },
   "paragraphs": [
     "Passionate computer scientist and EPFL MSc student specializing in data science, machine learning, and large language models (LLMs).",
     "Experienced in building scalable AI systems, from LLM alignment to Mixture-of-Experts optimization with Megatron-LM.",
+    "Research experience spans LLM alignment, scalable MoE optimization, and AI-powered document processing, including segmentation pipelines and LSTM/Transformer-based text transcription with beam search.",
     "Skilled in the full ML pipeline, including multi-GPU training, model evaluation, and deployment.",
     "Motivated by the challenge of creating scalable, aligned AI systems that serve human needs."
   ],
+
+  
   "links": {
-    "cv": "/cv/Zeynep_Tandogan_CV.pdf",
     "linkedin": "https://www.linkedin.com/in/zeyneptandogan/",
     "github": "https://github.com/zeyneptandogan",
     "scholar": "https://scholar.google.com/citations?user=MGq29kUAAAAJ&hl=en&authuser=2"
   },
   "skills": {
-    "programmingLanguages": ["Python", "TypeScript", "C++", "Go"],
-    "toolsAndFrameworks": ["Next.js", "React", "PyTorch", "TensorFlow", "FastAPI", "Docker", "Kubernetes", "PostgreSQL"],
-    "coreCompetencies": ["LLM Alignment", "Mixture-of-Experts", "Distributed Training (DDP/ZeRO)", "Evaluation & Benchmarks", "MLOps", "Data Engineering"],
-    "softSkills": ["Communication", "Leadership", "Mentoring", "Teamwork", "Public Speaking"]
-  }
+  "programmingLanguages": ["Python", "C++", "JavaScript", "SQL"],
+  "toolsAndFrameworks": [
+    "PyTorch",
+    "Transformers",
+    "TRL",
+    "OpenCV",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Weights & Biases",
+    "Deepspeed",
+    "Kubernetes",
+    "Git",
+    "Docker",
+    "MySQL",
+    "AWS Redshift"
+  ],
+  "coreCompetencies": [
+    "Algorithm Design and Data Structures",
+    "Natural Language Processing",
+    "Machine Learning and AI",
+    "Reinforcement Learning",
+    "Data Analysis and Visualization"
+  ],
+  "softSkills": [
+    "Team Collaboration",
+    "Communication",
+    "Problem-Solving",
+    "Time Management",
+    "Leadership",
+    "Adaptability"
+  ]
+}
 }

@@ -1,33 +1,105 @@
 [
   {
-    "company": "OpenAI",
-    "title": "Machine Learning Engineer",
-    "period": "2024 – Present",
-    "location": "San Francisco, CA",
-    "link": "https://openai.com",
-    "highlights": [
-      "LLM alignment ve değerlendirme altyapısı",
-      "Üretim sistemlerinde performans/bellek optimizasyonu",
-      "MLOps otomasyonları (train/eval/deploy)"]
-  },
-  {
-    "company": "EPFL Lab",
-    "title": "Research Assistant",
-    "period": "2023 – 2024",
+    "company": "Swisscom",
+    "title": "Master Thesis Project Intern",
+    "period": "Sept 2025 – Feb 2026",
     "location": "Lausanne, Switzerland",
+    "link": "https://www.swisscom.ch",
     "highlights": [
-      "Self-supervised representation learning",
-      "Deney sonuçlarının tekrarlanabilir pipeline'ı",
-      "Akademik makale hazırlığı ve veri temizliği"]
+      "Planned thesis on optimizing LLMs for segmented, multi-domain business data.",
+      "Explored segment-aware fine-tuning, modular input pipelines, and prompt engineering to adapt models across domains."
+    ]
   },
   {
-    "company": "Startup X",
-    "title": "Software Engineer Intern",
-    "period": "Summer 2022",
-    "location": "Remote",
+    "company": "Machine Learning and Optimization Lab at EPFL",
+    "title": "Student Researcher",
+    "period": "Feb 2025 – July 2025",
+    "location": "Lausanne, Switzerland",
+    "link": "https://www.epfl.ch/labs/mlo",
     "highlights": [
-      "Next.js + React ile dashboard geliştirme",
-      "Node.js API performans iyileştirmeleri",
-      "CI/CD ve test otomasyonları"]
+      "Developed optimization strategies to improve scalability and efficiency in Mixture-of-Experts (MoE) models.",
+      "Implemented a custom MoE architecture and ran multi-GPU training experiments and performance benchmarks for both custom and Megatron-LM implementations.",
+      "Conducted comparative analysis across multiple configurations, including hyperparameter search, optimizer variants, learning rate schedules, and an auxiliary loss–free method, as part of the Swiss AI Initiative."
+    ]
+  },
+  {
+    "company": "Logitech",
+    "title": "Machine Learning Engineering Intern",
+    "period": "Aug 2024 – Feb 2025",
+    "location": "Lausanne, Switzerland",
+    "link": "https://www.logitech.com",
+    "highlights": [
+      "Built a pipeline to collect keyboard signal data, followed by preprocessing and feature extraction for downstream ML tasks.",
+      "Trained lightweight LSTM and FNN models to detect behavioral changes during typing, optimized for limited computational resources.",
+      "Improved end-to-end user satisfaction through behavior-aware signal analysis and model deployment."
+    ]
+  },
+  {
+    "company": "CLAIRe Lab at EPFL",
+    "title": "Student Researcher",
+    "period": "Feb 2024 – Dec 2024",
+    "location": "Lausanne, Switzerland",
+    "link": "https://claire.epfl.ch",
+    "highlights": [
+      "Developed a custom SFT-based LLM alignment method called Alignment as Translation, and conducted a comparative analysis with state-of-the-art methods such as DPO and ORPO.",
+      "Evaluated models based on helpfulness, harmlessness, coherence, and truthfulness.",
+      "Applied LoRA finetuning to assess alignment performance under resource constraints."
+    ]
+  },
+  {
+    "company": "Telescope Labs",
+    "title": "Machine Learning Engineer",
+    "period": "Nov 2022 – Sept 2023",
+    "location": "London, UK",
+    "highlights": [
+      "Enhanced a production chatbot with probabilistic models, semantic search, and prompt engineering.",
+      "Deployed custom AI solutions for data-driven analysis in sectors like gaming."
+    ]
+  },
+  {
+    "company": "The Scientific and Technological Research Council of Turkey (TUBITAK)",
+    "title": "Student Researcher",
+    "period": "Jan 2022 – June 2023",
+    "location": "Istanbul, Turkey",
+    "link": "https://www.tubitak.gov.tr/en",
+    "highlights": [
+      "Built a deep learning system for text transcription using LSTM/Transformer-based decoding with beam search.",
+      "Developed a page segmentation pipeline for historical documents.",
+      "Created an interactive GUI for processing and transcribing archival material."
+    ]
+  },
+  {
+    "company": "Getir",
+    "title": "Data Scientist (Part-time)",
+    "period": "March 2022 – Sept 2022",
+    "location": "Istanbul, Turkey",
+    "link": "https://getir.com",
+    "highlights": [
+      "Built ML models to improve warehouse efficiency and delivery accuracy.",
+      "Developed predictive algorithms to identify missing items in shopping baskets.",
+      "Performed SQL-based data analysis to support business unit decisions and operational improvements."
+    ]
+  },
+  {
+    "company": "Huawei Turkey R&D Center",
+    "title": "Artificial Intelligence Intern",
+    "period": "Aug 2021 – Sept 2021",
+    "location": "Istanbul, Turkey",
+    "link": "https://www.huawei.com/en/",
+    "highlights": [
+      "Prepared and processed Named Entity Recognition (NER) datasets.",
+      "Evaluated pretrained models for integration into the Petal Search engine, Huawei’s in-house search platform."
+    ]
+  },
+  {
+    "company": "ASELSAN",
+    "title": "Software Engineering Intern",
+    "period": "June 2021 – Aug 2021",
+    "location": "Ankara, Turkey",
+    "link": "https://www.aselsan.com/en",
+    "highlights": [
+      "Developed a website allowing multiple users to simultaneously watch real-time broadcasts from cameras of their choice.",
+      "Worked with WebRTC and Kurento for real-time communication."
+    ]
   }
 ]

@@ -9,10 +9,10 @@ export default function Intro() {
                 <div className="col-sm-12 col-md-7 text-start ps-5 py-5 text-white">
                     <h1 className="display-5">Hey,<br /> I am <b>Zeynep Tandogan</b></h1> 
                     <div>
-                      <Typewriter words={['Machine Learning Engineer', 'Data Scientist', 'AI Enthusiast']} />
+                      <Typewriter words={['Machine Learning Engineer', 'AI & Research Enthusiast', 'Data-Driven Explorer']} />
                     </div>
                     <div className="pt-2">
-                      <i className="bi bi-geo-alt-fill"></i><span className="ps-2">Loussane, Switzerland</span>
+                      <i className="bi bi-geo-alt-fill"></i><span className="ps-2">Lausanne, Switzerland</span>
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-5 text-center py-5 text-white">
